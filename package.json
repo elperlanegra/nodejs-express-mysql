@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-express-mysql",
+  "version": "1.0.0",
+  "description": "Node.JS Restfull CRUD API with Node.JS, Express and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express.js",
+    "mysql",
+    "restapi"
+  ],
+  "author": "manuelduarte077 (TheCodeMonster)",
+  "license": "ISC"
+}
