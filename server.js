@@ -7,16 +7,14 @@ const app = express();
 app.use(bodyParser.json());
 
 // parse requests of content-type: application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extend: true }))
-
+app.use(bodyParser.urlencoded({ extend: true }));
 
 // simple route
-app.get('/', (req, res)=>{
-    res.json({message: "Welcome to manuelduarte077 application" })
-})
-
+app.get('/', (req, res) => {
+  res.json({ message: 'Welcome to manuelduarte077 application' });
+});
 
 // set por, listen for request
-app.listen(3000, ()=>{
-    console.log("Server is running on port 3000")
-})
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
