@@ -16,4 +16,4 @@ connection.connect((error) => {
 });
 
 
-module.export = connection;
+module.exports = connection;
